@@ -1,0 +1,4 @@
+state,candidate_state_endpoint_denominator,E_equal_Complex,E_strict_subset_Complex,E_equal_Union,E_strict_subset_Union,Complex_strict_subset_Union
+STATE_VALID,1824,941,883,195,1629,963
+ALL,3648,2067,1581,466,3182,1926
+STATE_INVALID,1824,1126,698,271,1553,963

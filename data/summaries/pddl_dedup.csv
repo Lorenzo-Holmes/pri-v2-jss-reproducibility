@@ -1,0 +1,7 @@
+signature,representative,candidates,mean_delta,positive,zero,negative
+mechanical,recorded,378917,1854.500000,17,2,1
+mechanical,base_rank,378917,1854.500000,17,2,1
+full_endpoint,recorded,740,4.300000,14,4,2
+full_endpoint,base_rank,740,2.700000,12,4,4
+paired_contract_endpoint,recorded,413,1.350000,12,6,2
+paired_contract_endpoint,base_rank,413,-0.050000,5,11,4

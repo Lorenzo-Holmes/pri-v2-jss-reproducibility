@@ -1,0 +1,17 @@
+template,structures,sum_D,mean_D,distinct_D_values,context_D
+alias,6,0,0,1,independent:0;irrelevant:0;overwritten:0;heap_alias:0;unreachable:0;exception:0
+branch_guard,6,12,2,1,independent:2;irrelevant:2;overwritten:2;heap_alias:2;unreachable:2;exception:2
+control_bypass,6,12,2,1,independent:2;irrelevant:2;overwritten:2;heap_alias:2;unreachable:2;exception:2
+delete_overwrite,6,12,2,1,independent:2;irrelevant:2;overwritten:2;heap_alias:2;unreachable:2;exception:2
+early_return,6,48,8,1,independent:8;irrelevant:8;overwritten:8;heap_alias:8;unreachable:8;exception:8
+high_write_only,6,6,1,1,independent:1;irrelevant:1;overwritten:1;heap_alias:1;unreachable:1;exception:1
+insertion,6,6,1,1,independent:1;irrelevant:1;overwritten:1;heap_alias:1;unreachable:1;exception:1
+literal,6,12,2,1,independent:2;irrelevant:2;overwritten:2;heap_alias:2;unreachable:2;exception:2
+may_raise,6,6,1,1,independent:1;irrelevant:1;overwritten:1;heap_alias:1;unreachable:1;exception:1
+multiple_observers,6,64,10.666666666666666,2,independent:10;irrelevant:10;overwritten:12;heap_alias:10;unreachable:10;exception:12
+resource_chain,6,12,2,1,independent:2;irrelevant:2;overwritten:2;heap_alias:2;unreachable:2;exception:2
+resource_correction,6,0,0,1,independent:0;irrelevant:0;overwritten:0;heap_alias:0;unreachable:0;exception:0
+two_edits,6,52,8.666666666666666,2,independent:9;irrelevant:9;overwritten:9;heap_alias:8;unreachable:8;exception:9
+unknown,6,0,0,1,independent:0;irrelevant:0;overwritten:0;heap_alias:0;unreachable:0;exception:0
+unreachable_correction,6,0,0,1,independent:0;irrelevant:0;overwritten:0;heap_alias:0;unreachable:0;exception:0
+value_dependency,6,12,2,1,independent:2;irrelevant:2;overwritten:2;heap_alias:2;unreachable:2;exception:2

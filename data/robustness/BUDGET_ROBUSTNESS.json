@@ -1,0 +1,1485 @@
+{
+  "python": "3.12.7",
+  "numpy": "1.26.4",
+  "overall": {
+    "1": {
+      "states": {
+        "STATE_VALID": {
+          "denominator": 96,
+          "success_reference": 30,
+          "success_E": 36,
+          "difference": 6
+        },
+        "STATE_INVALID": {
+          "denominator": 96,
+          "success_reference": 6,
+          "success_E": 6,
+          "difference": 0
+        }
+      },
+      "success_interaction": -6
+    },
+    "2": {
+      "states": {
+        "STATE_VALID": {
+          "denominator": 96,
+          "success_reference": 36,
+          "success_E": 90,
+          "difference": 54
+        },
+        "STATE_INVALID": {
+          "denominator": 96,
+          "success_reference": 12,
+          "success_E": 12,
+          "difference": 0
+        }
+      },
+      "success_interaction": -54
+    },
+    "4": {
+      "states": {
+        "STATE_VALID": {
+          "denominator": 96,
+          "success_reference": 90,
+          "success_E": 90,
+          "difference": 0
+        },
+        "STATE_INVALID": {
+          "denominator": 96,
+          "success_reference": 72,
+          "success_E": 54,
+          "difference": -18
+        }
+      },
+      "success_interaction": -18
+    },
+    "8": {
+      "states": {
+        "STATE_VALID": {
+          "denominator": 96,
+          "success_reference": 90,
+          "success_E": 92,
+          "difference": 2
+        },
+        "STATE_INVALID": {
+          "denominator": 96,
+          "success_reference": 90,
+          "success_E": 78,
+          "difference": -12
+        }
+      },
+      "success_interaction": -14
+    },
+    "exhaustive": {
+      "states": {
+        "STATE_VALID": {
+          "denominator": 96,
+          "success_reference": 96,
+          "success_E": 96,
+          "difference": 0
+        },
+        "STATE_INVALID": {
+          "denominator": 96,
+          "success_reference": 96,
+          "success_E": 96,
+          "difference": 0
+        }
+      },
+      "success_interaction": 0
+    }
+  },
+  "templates": {
+    "alias": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "branch_guard": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "control_bypass": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "delete_overwrite": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "early_return": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 0,
+            "difference": -6
+          }
+        },
+        "success_interaction": -6
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 0,
+            "difference": -6
+          }
+        },
+        "success_interaction": -6
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "high_write_only": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "insertion": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 0,
+            "difference": -6
+          }
+        },
+        "success_interaction": -6
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "literal": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "may_raise": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "multiple_observers": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 0,
+            "difference": -6
+          }
+        },
+        "success_interaction": -6
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 0,
+            "difference": -6
+          }
+        },
+        "success_interaction": -6
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "resource_chain": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "resource_correction": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "two_edits": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 2,
+            "difference": 2
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -2
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "unknown": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "unreachable_correction": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    },
+    "value_dependency": {
+      "1": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "2": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 6,
+            "difference": 6
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 0,
+            "success_E": 0,
+            "difference": 0
+          }
+        },
+        "success_interaction": -6
+      },
+      "4": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "8": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      },
+      "exhaustive": {
+        "states": {
+          "STATE_VALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          },
+          "STATE_INVALID": {
+            "denominator": 6,
+            "success_reference": 6,
+            "success_E": 6,
+            "difference": 0
+          }
+        },
+        "success_interaction": 0
+      }
+    }
+  }
+}

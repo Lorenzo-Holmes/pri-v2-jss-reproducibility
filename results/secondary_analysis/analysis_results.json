@@ -1,0 +1,490 @@
+{
+  "input_files": [
+    "data/controlled/programs.json",
+    "data/controlled/observations.json",
+    "data/controlled/predictions.json",
+    "data/robustness/paired_results.json",
+    "data/robustness/DEDUP_ROBUSTNESS.json",
+    "data/robustness/TIE_ORDER_ROBUSTNESS.json"
+  ],
+  "formula": "(v*k_minus-k_plus)/(v+1)",
+  "checks": {
+    "candidate_state_rows": 3648,
+    "valid_endpoint_effect_equalities": 667
+  },
+  "formula_checked_state_menus": 1344,
+  "budget_max": 60,
+  "representations": [
+    {
+      "representation": "original",
+      "candidate_count": 1824,
+      "observed_D": {
+        "n": 96,
+        "mean": 2.6458333333333335,
+        "median": 2.0,
+        "q1": 0.75,
+        "q3": 2.0,
+        "minimum": 0,
+        "maximum": 12,
+        "positive": 72,
+        "zero": 24,
+        "negative": 0
+      },
+      "expected_D": {
+        "n": 96,
+        "mean": 2.581010656010656,
+        "median": 1.3333333333333333,
+        "q1": 1.25,
+        "q3": 3.0,
+        "minimum": 0.0,
+        "maximum": 10.76923076923077,
+        "positive": 90,
+        "zero": 6,
+        "negative": 0
+      },
+      "residual_D_mean": 0.06482267732267732,
+      "states": {
+        "STATE_VALID": {
+          "T_R": 294,
+          "T_E": 200,
+          "delta": {
+            "n": 96,
+            "mean": -0.9791666666666666,
+            "median": -1.0,
+            "q1": -1.0,
+            "q3": 0.0,
+            "minimum": -7,
+            "maximum": 0,
+            "positive": 0,
+            "zero": 30,
+            "negative": 66
+          },
+          "expected_delta": -0.41712176712176713
+        },
+        "STATE_INVALID": {
+          "T_R": 408,
+          "T_E": 568,
+          "delta": {
+            "n": 96,
+            "mean": 1.6666666666666667,
+            "median": 1.0,
+            "q1": 0.0,
+            "q3": 1.0,
+            "minimum": 0,
+            "maximum": 11,
+            "positive": 60,
+            "zero": 36,
+            "negative": 0
+          },
+          "expected_delta": 2.1638888888888888
+        }
+      }
+    },
+    {
+      "representation": "mechanical/recorded",
+      "candidate_count": 1182,
+      "observed_D": {
+        "n": 96,
+        "mean": 1.8645833333333333,
+        "median": 2.0,
+        "q1": 1.0,
+        "q3": 2.0,
+        "minimum": 0,
+        "maximum": 7,
+        "positive": 73,
+        "zero": 23,
+        "negative": 0
+      },
+      "expected_D": {
+        "n": 96,
+        "mean": 1.5847222222222221,
+        "median": 1.3333333333333333,
+        "q1": 1.0,
+        "q3": 1.5,
+        "minimum": 0.0,
+        "maximum": 5.0,
+        "positive": 90,
+        "zero": 6,
+        "negative": 0
+      },
+      "residual_D_mean": 0.2798611111111111,
+      "states": {
+        "STATE_VALID": {
+          "T_R": 308,
+          "T_E": 193,
+          "delta": {
+            "n": 96,
+            "mean": -1.1979166666666667,
+            "median": -1.0,
+            "q1": -1.0,
+            "q3": 0.0,
+            "minimum": -8,
+            "maximum": 0,
+            "positive": 0,
+            "zero": 31,
+            "negative": 65
+          },
+          "expected_delta": -0.4215277777777778
+        },
+        "STATE_INVALID": {
+          "T_R": 382,
+          "T_E": 446,
+          "delta": {
+            "n": 96,
+            "mean": 0.6666666666666666,
+            "median": 1.0,
+            "q1": 0.0,
+            "q3": 1.0,
+            "minimum": -2,
+            "maximum": 4,
+            "positive": 54,
+            "zero": 39,
+            "negative": 3
+          },
+          "expected_delta": 1.1631944444444444
+        }
+      }
+    },
+    {
+      "representation": "mechanical/base_rank",
+      "candidate_count": 1182,
+      "observed_D": {
+        "n": 96,
+        "mean": 1.7708333333333333,
+        "median": 2.0,
+        "q1": 0.75,
+        "q3": 2.0,
+        "minimum": 0,
+        "maximum": 6,
+        "positive": 72,
+        "zero": 24,
+        "negative": 0
+      },
+      "expected_D": {
+        "n": 96,
+        "mean": 1.5847222222222221,
+        "median": 1.3333333333333333,
+        "q1": 1.0,
+        "q3": 1.5,
+        "minimum": 0.0,
+        "maximum": 5.0,
+        "positive": 90,
+        "zero": 6,
+        "negative": 0
+      },
+      "residual_D_mean": 0.1861111111111111,
+      "states": {
+        "STATE_VALID": {
+          "T_R": 264,
+          "T_E": 182,
+          "delta": {
+            "n": 96,
+            "mean": -0.8541666666666666,
+            "median": -1.0,
+            "q1": -1.0,
+            "q3": 0.0,
+            "minimum": -5,
+            "maximum": 0,
+            "positive": 0,
+            "zero": 30,
+            "negative": 66
+          },
+          "expected_delta": -0.4215277777777778
+        },
+        "STATE_INVALID": {
+          "T_R": 330,
+          "T_E": 418,
+          "delta": {
+            "n": 96,
+            "mean": 0.9166666666666666,
+            "median": 1.0,
+            "q1": 0.0,
+            "q3": 1.0,
+            "minimum": -1,
+            "maximum": 5,
+            "positive": 58,
+            "zero": 36,
+            "negative": 2
+          },
+          "expected_delta": 1.1631944444444444
+        }
+      }
+    },
+    {
+      "representation": "full_endpoint/recorded",
+      "candidate_count": 947,
+      "observed_D": {
+        "n": 96,
+        "mean": 1.6145833333333333,
+        "median": 2.0,
+        "q1": 0.75,
+        "q3": 2.0,
+        "minimum": -1,
+        "maximum": 6,
+        "positive": 72,
+        "zero": 23,
+        "negative": 1
+      },
+      "expected_D": {
+        "n": 96,
+        "mean": 1.3298611111111112,
+        "median": 1.3333333333333333,
+        "q1": 1.0,
+        "q3": 1.3333333333333333,
+        "minimum": 0.0,
+        "maximum": 4.0,
+        "positive": 90,
+        "zero": 6,
+        "negative": 0
+      },
+      "residual_D_mean": 0.2847222222222222,
+      "states": {
+        "STATE_VALID": {
+          "T_R": 263,
+          "T_E": 159,
+          "delta": {
+            "n": 96,
+            "mean": -1.0833333333333333,
+            "median": -1.0,
+            "q1": -1.0,
+            "q3": 0.0,
+            "minimum": -8,
+            "maximum": 0,
+            "positive": 0,
+            "zero": 32,
+            "negative": 64
+          },
+          "expected_delta": -0.4427083333333333
+        },
+        "STATE_INVALID": {
+          "T_R": 325,
+          "T_E": 376,
+          "delta": {
+            "n": 96,
+            "mean": 0.53125,
+            "median": 1.0,
+            "q1": 0.0,
+            "q3": 1.0,
+            "minimum": -3,
+            "maximum": 3,
+            "positive": 54,
+            "zero": 36,
+            "negative": 6
+          },
+          "expected_delta": 0.8871527777777778
+        }
+      }
+    },
+    {
+      "representation": "full_endpoint/base_rank",
+      "candidate_count": 947,
+      "observed_D": {
+        "n": 96,
+        "mean": 1.5208333333333333,
+        "median": 2.0,
+        "q1": 0.75,
+        "q3": 2.0,
+        "minimum": 0,
+        "maximum": 5,
+        "positive": 72,
+        "zero": 24,
+        "negative": 0
+      },
+      "expected_D": {
+        "n": 96,
+        "mean": 1.3298611111111112,
+        "median": 1.3333333333333333,
+        "q1": 1.0,
+        "q3": 1.3333333333333333,
+        "minimum": 0.0,
+        "maximum": 4.0,
+        "positive": 90,
+        "zero": 6,
+        "negative": 0
+      },
+      "residual_D_mean": 0.1909722222222222,
+      "states": {
+        "STATE_VALID": {
+          "T_R": 244,
+          "T_E": 165,
+          "delta": {
+            "n": 96,
+            "mean": -0.8229166666666666,
+            "median": -1.0,
+            "q1": -1.0,
+            "q3": 0.0,
+            "minimum": -4,
+            "maximum": 0,
+            "positive": 0,
+            "zero": 30,
+            "negative": 66
+          },
+          "expected_delta": -0.4427083333333333
+        },
+        "STATE_INVALID": {
+          "T_R": 299,
+          "T_E": 366,
+          "delta": {
+            "n": 96,
+            "mean": 0.6979166666666666,
+            "median": 1.0,
+            "q1": 0.0,
+            "q3": 1.0,
+            "minimum": 0,
+            "maximum": 3,
+            "positive": 58,
+            "zero": 38,
+            "negative": 0
+          },
+          "expected_delta": 0.8871527777777778
+        }
+      }
+    },
+    {
+      "representation": "paired_contract_endpoint/recorded",
+      "candidate_count": 858,
+      "observed_D": {
+        "n": 96,
+        "mean": 1.53125,
+        "median": 2.0,
+        "q1": 0.75,
+        "q3": 2.0,
+        "minimum": -1,
+        "maximum": 6,
+        "positive": 72,
+        "zero": 23,
+        "negative": 1
+      },
+      "expected_D": {
+        "n": 96,
+        "mean": 1.2239583333333333,
+        "median": 1.3333333333333333,
+        "q1": 1.0,
+        "q3": 1.3333333333333333,
+        "minimum": 0.0,
+        "maximum": 4.0,
+        "positive": 90,
+        "zero": 6,
+        "negative": 0
+      },
+      "residual_D_mean": 0.30729166666666663,
+      "states": {
+        "STATE_VALID": {
+          "T_R": 255,
+          "T_E": 155,
+          "delta": {
+            "n": 96,
+            "mean": -1.0416666666666667,
+            "median": -1.0,
+            "q1": -1.0,
+            "q3": 0.0,
+            "minimum": -7,
+            "maximum": 0,
+            "positive": 0,
+            "zero": 32,
+            "negative": 64
+          },
+          "expected_delta": -0.4583333333333333
+        },
+        "STATE_INVALID": {
+          "T_R": 307,
+          "T_E": 354,
+          "delta": {
+            "n": 96,
+            "mean": 0.4895833333333333,
+            "median": 1.0,
+            "q1": 0.0,
+            "q3": 1.0,
+            "minimum": -3,
+            "maximum": 3,
+            "positive": 54,
+            "zero": 36,
+            "negative": 6
+          },
+          "expected_delta": 0.765625
+        }
+      }
+    },
+    {
+      "representation": "paired_contract_endpoint/base_rank",
+      "candidate_count": 858,
+      "observed_D": {
+        "n": 96,
+        "mean": 1.4375,
+        "median": 2.0,
+        "q1": 0.75,
+        "q3": 2.0,
+        "minimum": 0,
+        "maximum": 5,
+        "positive": 72,
+        "zero": 24,
+        "negative": 0
+      },
+      "expected_D": {
+        "n": 96,
+        "mean": 1.2239583333333333,
+        "median": 1.3333333333333333,
+        "q1": 1.0,
+        "q3": 1.3333333333333333,
+        "minimum": 0.0,
+        "maximum": 4.0,
+        "positive": 90,
+        "zero": 6,
+        "negative": 0
+      },
+      "residual_D_mean": 0.21354166666666666,
+      "states": {
+        "STATE_VALID": {
+          "T_R": 240,
+          "T_E": 163,
+          "delta": {
+            "n": 96,
+            "mean": -0.8020833333333334,
+            "median": -1.0,
+            "q1": -1.0,
+            "q3": 0.0,
+            "minimum": -4,
+            "maximum": 0,
+            "positive": 0,
+            "zero": 30,
+            "negative": 66
+          },
+          "expected_delta": -0.4583333333333333
+        },
+        "STATE_INVALID": {
+          "T_R": 285,
+          "T_E": 346,
+          "delta": {
+            "n": 96,
+            "mean": 0.6354166666666666,
+            "median": 1.0,
+            "q1": 0.0,
+            "q3": 1.0,
+            "minimum": 0,
+            "maximum": 3,
+            "positive": 58,
+            "zero": 38,
+            "negative": 0
+          },
+          "expected_delta": 0.765625
+        }
+      }
+    }
+  ],
+  "retained_tie_check": {
+    "exact_structures": 36,
+    "retained_structure_mean_D": 2.5802395833333334,
+    "analytic_mean_D": 2.581010656010656,
+    "maximum_absolute_MC_difference": 0.13244444444444445
+  },
+  "units": "96 designed pairs, grouped in 16 templates; no natural population inference",
+  "tables": {
+    "candidate_categories": 1344,
+    "paired_mechanism": 672,
+    "representation_changes": 576,
+    "template_mechanism": 112,
+    "budget_intervals": 1344,
+    "all_integer_budgets": 854,
+    "retained_tie_comparison": 96
+  }
+}

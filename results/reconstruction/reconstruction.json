@@ -1,0 +1,108 @@
+{
+  "structures": 96,
+  "templates": 16,
+  "contexts_per_template": {
+    "literal": 6,
+    "value_dependency": 6,
+    "resource_chain": 6,
+    "delete_overwrite": 6,
+    "branch_guard": 6,
+    "early_return": 6,
+    "control_bypass": 6,
+    "may_raise": 6,
+    "high_write_only": 6,
+    "two_edits": 6,
+    "unknown": 6,
+    "insertion": 6,
+    "multiple_observers": 6,
+    "alias": 6,
+    "unreachable_correction": 6,
+    "resource_correction": 6
+  },
+  "candidate_state_rows": 3648,
+  "distinct_candidates": 1824,
+  "totals": {
+    "STATE_VALID": {
+      "reference": 294,
+      "E": 200
+    },
+    "STATE_INVALID": {
+      "reference": 408,
+      "E": 568
+    }
+  },
+  "interaction_signs": {
+    "positive": 72,
+    "zero": 24,
+    "negative": 0
+  },
+  "interaction_mean": 2.6458333333333335,
+  "interaction_median": 2.0,
+  "budgets": {
+    "1": {
+      "STATE_VALID": {
+        "denominator": 96,
+        "reference": 30,
+        "E": 36
+      },
+      "STATE_INVALID": {
+        "denominator": 96,
+        "reference": 6,
+        "E": 6
+      }
+    },
+    "2": {
+      "STATE_VALID": {
+        "denominator": 96,
+        "reference": 36,
+        "E": 90
+      },
+      "STATE_INVALID": {
+        "denominator": 96,
+        "reference": 12,
+        "E": 12
+      }
+    },
+    "4": {
+      "STATE_VALID": {
+        "denominator": 96,
+        "reference": 90,
+        "E": 90
+      },
+      "STATE_INVALID": {
+        "denominator": 96,
+        "reference": 72,
+        "E": 54
+      }
+    },
+    "8": {
+      "STATE_VALID": {
+        "denominator": 96,
+        "reference": 90,
+        "E": 92
+      },
+      "STATE_INVALID": {
+        "denominator": 96,
+        "reference": 90,
+        "E": 78
+      }
+    },
+    "exhaustive": {
+      "STATE_VALID": {
+        "denominator": 96,
+        "reference": 96,
+        "E": 96
+      },
+      "STATE_INVALID": {
+        "denominator": 96,
+        "reference": 96,
+        "E": 96
+      }
+    }
+  },
+  "input_files": [
+    "programs.json",
+    "observations.json",
+    "predictions.json"
+  ]
+}

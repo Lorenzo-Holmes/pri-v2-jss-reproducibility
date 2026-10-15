@@ -1,0 +1,871 @@
+{
+  "python": "3.12.7",
+  "numpy": "1.26.4",
+  "records": [
+    {
+      "dropped_template": "alias",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.8222222222222224,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 1.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 72,
+          "zero": 18,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 288,
+          "E_validations": 194,
+          "delta_defined_sum": -94,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 24,
+            "negative": 66,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 366,
+          "E_validations": 526,
+          "delta_defined_sum": 160,
+          "delta_signs": {
+            "positive": 60,
+            "zero": 30,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 254,
+      "all_menu_exhaustion_work_interaction_sum": 254
+    },
+    {
+      "dropped_template": "branch_guard",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.688888888888889,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 544,
+          "delta_defined_sum": 154,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 242,
+      "all_menu_exhaustion_work_interaction_sum": 242
+    },
+    {
+      "dropped_template": "control_bypass",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.688888888888889,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 544,
+          "delta_defined_sum": 154,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 242,
+      "all_menu_exhaustion_work_interaction_sum": 242
+    },
+    {
+      "dropped_template": "delete_overwrite",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.688888888888889,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 544,
+          "delta_defined_sum": 154,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 242,
+      "all_menu_exhaustion_work_interaction_sum": 242
+    },
+    {
+      "dropped_template": "early_return",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.2888888888888888,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 508,
+          "delta_defined_sum": 118,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 206,
+      "all_menu_exhaustion_work_interaction_sum": 206
+    },
+    {
+      "dropped_template": "high_write_only",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.7555555555555555,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 550,
+          "delta_defined_sum": 160,
+          "delta_signs": {
+            "positive": 60,
+            "zero": 30,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 248,
+      "all_menu_exhaustion_work_interaction_sum": 248
+    },
+    {
+      "dropped_template": "insertion",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.7555555555555555,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 288,
+          "E_validations": 194,
+          "delta_defined_sum": -94,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 24,
+            "negative": 66,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 384,
+          "E_validations": 538,
+          "delta_defined_sum": 154,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 248,
+      "all_menu_exhaustion_work_interaction_sum": 248
+    },
+    {
+      "dropped_template": "literal",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.688888888888889,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 544,
+          "delta_defined_sum": 154,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 242,
+      "all_menu_exhaustion_work_interaction_sum": 242
+    },
+    {
+      "dropped_template": "may_raise",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.7555555555555555,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 282,
+          "E_validations": 194,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 396,
+          "E_validations": 556,
+          "delta_defined_sum": 160,
+          "delta_signs": {
+            "positive": 60,
+            "zero": 30,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 248,
+      "all_menu_exhaustion_work_interaction_sum": 248
+    },
+    {
+      "dropped_template": "multiple_observers",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.111111111111111,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 9.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 8.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 492,
+          "delta_defined_sum": 102,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 190,
+      "all_menu_exhaustion_work_interaction_sum": 190
+    },
+    {
+      "dropped_template": "resource_chain",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.688888888888889,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 544,
+          "delta_defined_sum": 154,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 242,
+      "all_menu_exhaustion_work_interaction_sum": 242
+    },
+    {
+      "dropped_template": "resource_correction",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.8222222222222224,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 1.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 72,
+          "zero": 18,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 288,
+          "E_validations": 194,
+          "delta_defined_sum": -94,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 24,
+            "negative": 66,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 366,
+          "E_validations": 526,
+          "delta_defined_sum": 160,
+          "delta_signs": {
+            "positive": 60,
+            "zero": 30,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 254,
+      "all_menu_exhaustion_work_interaction_sum": 254
+    },
+    {
+      "dropped_template": "two_edits",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.2444444444444445,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 204,
+          "E_validations": 144,
+          "delta_defined_sum": -60,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 318,
+          "E_validations": 460,
+          "delta_defined_sum": 142,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 202,
+      "all_menu_exhaustion_work_interaction_sum": 202
+    },
+    {
+      "dropped_template": "unknown",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.8222222222222224,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 1.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 72,
+          "zero": 18,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 288,
+          "E_validations": 194,
+          "delta_defined_sum": -94,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 24,
+            "negative": 66,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 402,
+          "E_validations": 562,
+          "delta_defined_sum": 160,
+          "delta_signs": {
+            "positive": 60,
+            "zero": 30,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 254,
+      "all_menu_exhaustion_work_interaction_sum": 254
+    },
+    {
+      "dropped_template": "unreachable_correction",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.8222222222222224,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 1.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 72,
+          "zero": 18,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 288,
+          "E_validations": 194,
+          "delta_defined_sum": -94,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 24,
+            "negative": 66,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 378,
+          "E_validations": 538,
+          "delta_defined_sum": 160,
+          "delta_signs": {
+            "positive": 60,
+            "zero": 30,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 254,
+      "all_menu_exhaustion_work_interaction_sum": 254
+    },
+    {
+      "dropped_template": "value_dependency",
+      "structures": 90,
+      "interaction": {
+        "n": 90,
+        "mean": 2.688888888888889,
+        "median": 2.0,
+        "minimum": 0.0,
+        "maximum": 12.0,
+        "percentiles": {
+          "5": 0.0,
+          "25": 0.0,
+          "75": 2.0,
+          "95": 10.0
+        },
+        "signs": {
+          "positive": 66,
+          "zero": 24,
+          "negative": 0,
+          "undefined": 0
+        }
+      },
+      "states": {
+        "STATE_VALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 276,
+          "E_validations": 188,
+          "delta_defined_sum": -88,
+          "delta_signs": {
+            "positive": 0,
+            "zero": 30,
+            "negative": 60,
+            "undefined": 0
+          }
+        },
+        "STATE_INVALID": {
+          "repairable": 90,
+          "no_valid_endpoint": 0,
+          "reference_validations": 390,
+          "E_validations": 544,
+          "delta_defined_sum": 154,
+          "delta_signs": {
+            "positive": 54,
+            "zero": 36,
+            "negative": 0,
+            "undefined": 0
+          }
+        }
+      },
+      "paired_coverage": 90,
+      "interaction_sum": 242,
+      "all_menu_exhaustion_work_interaction_sum": 242
+    }
+  ],
+  "any_reversal": false
+}

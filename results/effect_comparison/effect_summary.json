@@ -1,0 +1,87 @@
+{
+  "prediction_source": "saved_records",
+  "input_files": [
+    "observations.json",
+    "predictions.json",
+    "programs.json"
+  ],
+  "counts": {
+    "nested_endpoint_rows": 3648,
+    "independently_recomputed_G_P_A_labels": 3648,
+    "strict_complex_subset_union_prediction_rows": 963,
+    "paired_validity_changed": 347,
+    "paired_E_cardinality_changed": 624,
+    "paired_candidate_control_sequence_changed": 0,
+    "trace_events_in_unmodified_and_candidate_executions": 15666
+  },
+  "extra_labels_summed_over_candidate_state_endpoints": {
+    "union": 6134,
+    "complex": 3312
+  },
+  "first_valid_totals": {
+    "STATE_INVALID": {
+      "reference": 408,
+      "union": 480,
+      "complex": 501,
+      "exact": 568
+    },
+    "STATE_VALID": {
+      "reference": 294,
+      "union": 194,
+      "complex": 157,
+      "exact": 200
+    }
+  },
+  "pairwise_order_changes": {
+    "STATE_VALID:reference->union": {
+      "harm": 0,
+      "tie": 64,
+      "benefit": 32
+    },
+    "STATE_VALID:reference->complex": {
+      "harm": 0,
+      "tie": 51,
+      "benefit": 45
+    },
+    "STATE_VALID:reference->exact": {
+      "harm": 0,
+      "tie": 30,
+      "benefit": 66
+    },
+    "STATE_VALID:union->complex": {
+      "harm": 0,
+      "tie": 82,
+      "benefit": 14
+    },
+    "STATE_VALID:complex->exact": {
+      "harm": 45,
+      "tie": 30,
+      "benefit": 21
+    },
+    "STATE_INVALID:reference->union": {
+      "harm": 36,
+      "tie": 60,
+      "benefit": 0
+    },
+    "STATE_INVALID:reference->complex": {
+      "harm": 48,
+      "tie": 48,
+      "benefit": 0
+    },
+    "STATE_INVALID:reference->exact": {
+      "harm": 60,
+      "tie": 36,
+      "benefit": 0
+    },
+    "STATE_INVALID:union->complex": {
+      "harm": 13,
+      "tie": 78,
+      "benefit": 5
+    },
+    "STATE_INVALID:complex->exact": {
+      "harm": 22,
+      "tie": 74,
+      "benefit": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+representation,condition,structures,Reference,Union,Complex,Exact,Complex_minus_Union
+original,STATE_VALID,96,294,194,157,200,-37
+original,STATE_INVALID,96,408,480,501,568,21
+recorded,STATE_VALID,96,255,179,142,155,-37
+recorded,STATE_INVALID,96,307,352,330,354,-22
+earliest,STATE_VALID,96,240,171,141,163,-30
+earliest,STATE_INVALID,96,285,329,332,346,3

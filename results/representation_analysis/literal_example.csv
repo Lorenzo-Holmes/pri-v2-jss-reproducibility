@@ -1,0 +1,9 @@
+family_id,condition,candidate_id,edits,base_rank,relevance,contract_valid,goal,preservation_valid,error,Union,Complex,Exact,union_observers,complex_observers,exact_observers,Reference_rank,Union_rank,Complex_rank,Exact_rank
+PRI_00_0_literal_independent,STATE_VALID,C0001,"[{""op"": ""REPLACE_CALL"", ""site"": ""n0001"", ""value_token"": ""apis.toy.finish(False, True)"", ""cost"": 1}]",1,4,False,False,True,,1,1,0,"[""P_vault""]","[""P_vault""]",[],1,2,2,1
+PRI_00_0_literal_independent,STATE_VALID,C0002,"[{""op"": ""REPLACE_CALL"", ""site"": ""n0001"", ""value_token"": ""apis.toy.finish(True, False)"", ""cost"": 1}]",2,4,False,True,False,,1,1,1,"[""P_vault""]","[""P_vault""]","[""P_vault""]",2,3,3,4
+PRI_00_0_literal_independent,STATE_VALID,C0003,"[{""op"": ""REPLACE_CALL"", ""site"": ""n0001"", ""value_token"": ""apis.toy.finish(True, True)"", ""cost"": 1}]",3,4,True,True,True,,1,1,0,"[""P_vault""]","[""P_vault""]",[],3,4,4,2
+PRI_00_0_literal_independent,STATE_VALID,C0004,"[{""op"": ""REPLACE_CALL"", ""site"": ""n0001"", ""value_token"": ""apis.toy.goal(False)"", ""cost"": 1}]",4,2,False,False,True,,0,0,0,[],[],[],5,5,5,5
+PRI_00_0_literal_independent,STATE_VALID,C0005,"[{""op"": ""REPLACE_CALL"", ""site"": ""n0001"", ""value_token"": ""apis.toy.goal(True)"", ""cost"": 1}]",5,4,True,True,True,,0,0,0,[],[],[],4,1,1,3
+PRI_00_0_literal_independent,STATE_VALID,C0006,"[{""op"": ""REPLACE_CALL"", ""site"": ""n0001"", ""value_token"": ""apis.toy.goal(not False)"", ""cost"": 1}]",6,2,True,True,True,,0,0,0,[],[],[],6,6,6,6
+PRI_00_0_literal_independent,STATE_VALID,C0007,"[{""op"": ""REPLACE_CALL"", ""site"": ""n0002"", ""value_token"": ""apis.out.set(0)"", ""cost"": 1}]",7,0,False,False,True,,0,0,0,[],[],[],7,7,7,7
+PRI_00_0_literal_independent,STATE_VALID,C0008,"[{""op"": ""REPLACE_CALL"", ""site"": ""n0002"", ""value_token"": ""apis.out.set(7)"", ""cost"": 1}]",8,0,False,False,True,,0,0,0,[],[],[],8,8,8,8

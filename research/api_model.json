@@ -1,0 +1,460 @@
+{
+  "profile_id": "controlled_api_model",
+  "resource_types": {
+    "mail": "int",
+    "calendar": "int",
+    "out": "int",
+    "vault": "int",
+    "audit": "int",
+    "buffer": "int",
+    "goal": "bool"
+  },
+  "runtime_sources": [
+    "research/candidates.py",
+    "research/domain.py"
+  ],
+  "apis": {
+    "apis.mail.get": {
+      "parameters": [],
+      "return_category": "int",
+      "reads": [
+        "mail"
+      ],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.mail.set": {
+      "parameters": [
+        {
+          "name": "v",
+          "types": [
+            "int"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "mail": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.calendar.get": {
+      "parameters": [],
+      "return_category": "int",
+      "reads": [
+        "calendar"
+      ],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.calendar.set": {
+      "parameters": [
+        {
+          "name": "v",
+          "types": [
+            "int"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "calendar": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.out.get": {
+      "parameters": [],
+      "return_category": "int",
+      "reads": [
+        "out"
+      ],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.out.set": {
+      "parameters": [
+        {
+          "name": "v",
+          "types": [
+            "int"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "out": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.out.write": {
+      "parameters": [
+        {
+          "name": "v",
+          "types": [
+            "int"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "out": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.values.pick": {
+      "parameters": [
+        {
+          "name": "v",
+          "types": [
+            "scalar"
+          ]
+        }
+      ],
+      "return_category": "arg:0",
+      "reads": [],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.values.box": {
+      "parameters": [
+        {
+          "name": "v",
+          "types": [
+            "scalar"
+          ]
+        }
+      ],
+      "return_category": "heap",
+      "reads": [],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "allocates",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.values.mutate": {
+      "parameters": [
+        {
+          "name": "box",
+          "types": [
+            "heap"
+          ]
+        },
+        {
+          "name": "v",
+          "types": [
+            "scalar"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "mutates_argument",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.values.readbox": {
+      "parameters": [
+        {
+          "name": "a",
+          "types": [
+            "heap"
+          ]
+        }
+      ],
+      "return_category": "scalar",
+      "reads": [],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "reads_heap",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.check.verify": {
+      "parameters": [
+        {
+          "name": "ok",
+          "types": [
+            "bool"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {},
+      "may_raise": true,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.check.mail": {
+      "parameters": [],
+      "return_category": "none",
+      "reads": [
+        "mail"
+      ],
+      "writes": {},
+      "may_raise": true,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.unknown.mutate": {
+      "parameters": [
+        {
+          "name": "v",
+          "types": [
+            "scalar"
+          ]
+        }
+      ],
+      "return_category": "unknown",
+      "reads": [],
+      "writes": {},
+      "may_raise": true,
+      "heap_behavior": "unknown",
+      "unknown": true,
+      "exception_atomic": true,
+      "modeled": false
+    },
+    "apis.toy.noop": {
+      "parameters": [],
+      "return_category": "none",
+      "reads": [],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.goal": {
+      "parameters": [
+        {
+          "name": "value",
+          "types": [
+            "bool"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "goal": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.finish": {
+      "parameters": [
+        {
+          "name": "value",
+          "types": [
+            "bool"
+          ]
+        },
+        {
+          "name": "preserve",
+          "types": [
+            "bool"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "goal": "must",
+        "vault": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.set_vault": {
+      "parameters": [
+        {
+          "name": "value",
+          "types": [
+            "int"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "vault": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.set_audit": {
+      "parameters": [
+        {
+          "name": "value",
+          "types": [
+            "int"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "audit": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.set_buffer": {
+      "parameters": [
+        {
+          "name": "value",
+          "types": [
+            "int"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "buffer": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.flush": {
+      "parameters": [],
+      "return_category": "none",
+      "reads": [
+        "buffer"
+      ],
+      "writes": {
+        "vault": "must"
+      },
+      "may_raise": false,
+      "heap_behavior": "none",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.make_alias": {
+      "parameters": [
+        {
+          "name": "value",
+          "types": [
+            "int"
+          ]
+        }
+      ],
+      "return_category": "heap",
+      "reads": [],
+      "writes": {},
+      "may_raise": false,
+      "heap_behavior": "allocates",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.commit_alias": {
+      "parameters": [
+        {
+          "name": "value",
+          "types": [
+            "heap"
+          ]
+        }
+      ],
+      "return_category": "none",
+      "reads": [],
+      "writes": {
+        "vault": "must"
+      },
+      "may_raise": true,
+      "heap_behavior": "reads_heap",
+      "unknown": false,
+      "exception_atomic": true,
+      "modeled": true
+    },
+    "apis.toy.unknown": {
+      "parameters": [
+        {
+          "name": "value",
+          "types": [
+            "bool"
+          ]
+        },
+        {
+          "name": "touch",
+          "types": [
+            "bool"
+          ]
+        }
+      ],
+      "return_category": "unknown",
+      "reads": [],
+      "writes": {},
+      "may_raise": true,
+      "heap_behavior": "unknown",
+      "unknown": true,
+      "exception_atomic": true,
+      "modeled": false
+    }
+  },
+  "scope": "Specifications of the local study APIs: argument types, resource effects, return categories, and exceptions within the execution horizon."
+}

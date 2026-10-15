@@ -1,0 +1,5 @@
+These materials are provided for peer review.
+No public-reuse licence has been selected. Supplying these materials for review
+does not grant a general redistribution licence. Applicable third-party notices
+and restrictions remain in force. Excluded third-party benchmark bodies and
+vendor code are not part of this package.

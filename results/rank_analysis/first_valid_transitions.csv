@@ -1,0 +1,13 @@
+state,before,after,denominator,harm,tie,benefit,delta_n,delta_sum,delta_mean,delta_median,delta_minimum,delta_maximum,delta_p05,delta_p95
+STATE_VALID,reference,union,96,0,64,32,96,-100,-1.0416666666666667,0.0,-11,0,-2.0,0.0
+STATE_VALID,reference,complex,96,0,51,45,96,-137,-1.4270833333333333,0.0,-12,0,-4.25,0.0
+STATE_VALID,reference,exact,96,0,30,66,96,-94,-0.9791666666666666,-1.0,-7,0,-5.0,0.0
+STATE_VALID,union,complex,96,0,82,14,96,-37,-0.3854166666666667,0.0,-12,0,-2.0,0.0
+STATE_VALID,complex,exact,96,45,30,21,96,43,0.4479166666666667,0.0,-7,7,-1.0,2.0
+STATE_VALID,union,exact,96,32,30,34,96,6,0.0625,0.0,-7,6,-1.0,1.0
+STATE_INVALID,reference,union,96,36,60,0,96,72,0.75,0.0,0,7,0.0,4.0
+STATE_INVALID,reference,complex,96,48,48,0,96,93,0.96875,0.5,0,6,0.0,4.25
+STATE_INVALID,reference,exact,96,60,36,0,96,160,1.6666666666666667,1.0,0,11,0.0,9.0
+STATE_INVALID,union,complex,96,13,78,5,96,21,0.21875,0.0,-4,5,-0.25,4.0
+STATE_INVALID,complex,exact,96,22,74,0,96,67,0.6979166666666666,0.0,0,9,0.0,4.0
+STATE_INVALID,union,exact,96,28,68,0,96,88,0.9166666666666666,0.0,0,9,0.0,7.0

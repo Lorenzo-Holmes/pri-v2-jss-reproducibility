@@ -1,0 +1,1582 @@
+{
+  "source": "PDDL_ROBUSTNESS.json",
+  "scope": "Retained numerical summaries only; no third-party benchmark bodies or native execution inputs",
+  "historical_reconstruction": {
+    "combinations": 84,
+    "repairable": 20,
+    "no_valid_endpoint": 64,
+    "candidate_count": 378917,
+    "valid_endpoints": 28,
+    "delta": {
+      "n": 20,
+      "mean": 1854.5,
+      "median": 426.0,
+      "minimum": -6.0,
+      "maximum": 11959.0,
+      "percentiles": {
+        "5": -0.2999999999999996,
+        "25": 202.75,
+        "75": 1146.0,
+        "95": 11224.650000000001
+      },
+      "signs": {
+        "positive": 17,
+        "zero": 2,
+        "negative": 1,
+        "undefined": 64
+      }
+    },
+    "rank_sum_reference": 13284,
+    "rank_sum_E": 50374,
+    "all_menu_validation_sum_reference": 341794,
+    "all_menu_validation_sum_E": 378884
+  },
+  "records": [
+    {
+      "case_id": "blocksworld_DELETE_NECESSARY_ACTION_S0",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 435,
+        "valid_endpoints": 1,
+        "T_reference": 36,
+        "validations_reference": 36,
+        "T_E": 430,
+        "validations_E": 430,
+        "delta": 394
+      }
+    },
+    {
+      "case_id": "blocksworld_DELETE_NECESSARY_ACTION_S1",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 435,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 435,
+        "T_E": null,
+        "validations_E": 435,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_DELETE_NECESSARY_ACTION_S2",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 435,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 435,
+        "T_E": null,
+        "validations_E": 435,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_DELETE_NECESSARY_ACTION_S3",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 435,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 435,
+        "T_E": null,
+        "validations_E": 435,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_DELETE_NECESSARY_ACTION_S4",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 435,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 435,
+        "T_E": null,
+        "validations_E": 435,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_DELETE_NECESSARY_ACTION_S5",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 435,
+        "valid_endpoints": 2,
+        "T_reference": 1,
+        "validations_reference": 1,
+        "T_E": 429,
+        "validations_E": 429,
+        "delta": 428
+      }
+    },
+    {
+      "case_id": "blocksworld_DELETE_NECESSARY_ACTION_S6",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 435,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 435,
+        "T_E": null,
+        "validations_E": 435,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_WRONG_GROUNDED_ACTION_S0",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 1,
+        "T_reference": 310,
+        "validations_reference": 310,
+        "T_E": 514,
+        "validations_E": 514,
+        "delta": 204
+      }
+    },
+    {
+      "case_id": "blocksworld_WRONG_GROUNDED_ACTION_S1",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_WRONG_GROUNDED_ACTION_S2",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_WRONG_GROUNDED_ACTION_S3",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_WRONG_GROUNDED_ACTION_S4",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_WRONG_GROUNDED_ACTION_S5",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 2,
+        "T_reference": 281,
+        "validations_reference": 281,
+        "T_E": 512,
+        "validations_E": 512,
+        "delta": 231
+      }
+    },
+    {
+      "case_id": "blocksworld_WRONG_GROUNDED_ACTION_S6",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_SWAP_DEPENDENT_ADJACENT_S0",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 515,
+        "valid_endpoints": 1,
+        "T_reference": 515,
+        "validations_reference": 515,
+        "T_E": 509,
+        "validations_E": 509,
+        "delta": -6
+      }
+    },
+    {
+      "case_id": "blocksworld_SWAP_DEPENDENT_ADJACENT_S1",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 515,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 515,
+        "T_E": null,
+        "validations_E": 515,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_SWAP_DEPENDENT_ADJACENT_S2",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 515,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 515,
+        "T_E": null,
+        "validations_E": 515,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_SWAP_DEPENDENT_ADJACENT_S3",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 515,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 515,
+        "T_E": null,
+        "validations_E": 515,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_SWAP_DEPENDENT_ADJACENT_S4",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 515,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 515,
+        "T_E": null,
+        "validations_E": 515,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_SWAP_DEPENDENT_ADJACENT_S5",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 515,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 515,
+        "T_E": null,
+        "validations_E": 515,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_SWAP_DEPENDENT_ADJACENT_S6",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 515,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 515,
+        "T_E": null,
+        "validations_E": 515,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_ALTER_AUTHORIZED_ARGUMENT_S0",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 1,
+        "T_reference": 310,
+        "validations_reference": 310,
+        "T_E": 509,
+        "validations_E": 509,
+        "delta": 199
+      }
+    },
+    {
+      "case_id": "blocksworld_ALTER_AUTHORIZED_ARGUMENT_S1",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_ALTER_AUTHORIZED_ARGUMENT_S2",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_ALTER_AUTHORIZED_ARGUMENT_S3",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 1,
+        "T_reference": 324,
+        "validations_reference": 324,
+        "T_E": 513,
+        "validations_E": 513,
+        "delta": 189
+      }
+    },
+    {
+      "case_id": "blocksworld_ALTER_AUTHORIZED_ARGUMENT_S4",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "blocksworld_ALTER_AUTHORIZED_ARGUMENT_S5",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 1,
+        "T_reference": 282,
+        "validations_reference": 282,
+        "T_E": 512,
+        "validations_E": 512,
+        "delta": 230
+      }
+    },
+    {
+      "case_id": "blocksworld_ALTER_AUTHORIZED_ARGUMENT_S6",
+      "domain": "blocksworld",
+      "endpoint": {
+        "menu_size": 514,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 514,
+        "T_E": null,
+        "validations_E": 514,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_DELETE_NECESSARY_ACTION_S0",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1148,
+        "valid_endpoints": 1,
+        "T_reference": 35,
+        "validations_reference": 35,
+        "T_E": 1148,
+        "validations_E": 1148,
+        "delta": 1113
+      }
+    },
+    {
+      "case_id": "logistics_DELETE_NECESSARY_ACTION_S1",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1148,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1148,
+        "T_E": null,
+        "validations_E": 1148,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_DELETE_NECESSARY_ACTION_S2",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1148,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1148,
+        "T_E": null,
+        "validations_E": 1148,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_DELETE_NECESSARY_ACTION_S3",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1148,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1148,
+        "T_E": null,
+        "validations_E": 1148,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_DELETE_NECESSARY_ACTION_S4",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1148,
+        "valid_endpoints": 1,
+        "T_reference": 35,
+        "validations_reference": 35,
+        "T_E": 1148,
+        "validations_E": 1148,
+        "delta": 1113
+      }
+    },
+    {
+      "case_id": "logistics_DELETE_NECESSARY_ACTION_S5",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1148,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1148,
+        "T_E": null,
+        "validations_E": 1148,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_DELETE_NECESSARY_ACTION_S6",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1148,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1148,
+        "T_E": null,
+        "validations_E": 1148,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_WRONG_GROUNDED_ACTION_S0",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 3,
+        "T_reference": 36,
+        "validations_reference": 36,
+        "T_E": 1281,
+        "validations_E": 1281,
+        "delta": 1245
+      }
+    },
+    {
+      "case_id": "logistics_WRONG_GROUNDED_ACTION_S1",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_WRONG_GROUNDED_ACTION_S2",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_WRONG_GROUNDED_ACTION_S3",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_WRONG_GROUNDED_ACTION_S4",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 3,
+        "T_reference": 36,
+        "validations_reference": 36,
+        "T_E": 1281,
+        "validations_E": 1281,
+        "delta": 1245
+      }
+    },
+    {
+      "case_id": "logistics_WRONG_GROUNDED_ACTION_S5",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_WRONG_GROUNDED_ACTION_S6",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_SWAP_DEPENDENT_ADJACENT_S0",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1284,
+        "valid_endpoints": 1,
+        "T_reference": 1284,
+        "validations_reference": 1284,
+        "T_E": 1284,
+        "validations_E": 1284,
+        "delta": 0
+      }
+    },
+    {
+      "case_id": "logistics_SWAP_DEPENDENT_ADJACENT_S1",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1284,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1284,
+        "T_E": null,
+        "validations_E": 1284,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_SWAP_DEPENDENT_ADJACENT_S2",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1284,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1284,
+        "T_E": null,
+        "validations_E": 1284,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_SWAP_DEPENDENT_ADJACENT_S3",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1284,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1284,
+        "T_E": null,
+        "validations_E": 1284,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_SWAP_DEPENDENT_ADJACENT_S4",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1284,
+        "valid_endpoints": 1,
+        "T_reference": 1284,
+        "validations_reference": 1284,
+        "T_E": 1284,
+        "validations_E": 1284,
+        "delta": 0
+      }
+    },
+    {
+      "case_id": "logistics_SWAP_DEPENDENT_ADJACENT_S5",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1284,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1284,
+        "T_E": null,
+        "validations_E": 1284,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_SWAP_DEPENDENT_ADJACENT_S6",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1284,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1284,
+        "T_E": null,
+        "validations_E": 1284,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_ALTER_AUTHORIZED_ARGUMENT_S0",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 1,
+        "T_reference": 706,
+        "validations_reference": 706,
+        "T_E": 1283,
+        "validations_E": 1283,
+        "delta": 577
+      }
+    },
+    {
+      "case_id": "logistics_ALTER_AUTHORIZED_ARGUMENT_S1",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_ALTER_AUTHORIZED_ARGUMENT_S2",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_ALTER_AUTHORIZED_ARGUMENT_S3",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 1,
+        "T_reference": 859,
+        "validations_reference": 859,
+        "T_E": 1283,
+        "validations_E": 1283,
+        "delta": 424
+      }
+    },
+    {
+      "case_id": "logistics_ALTER_AUTHORIZED_ARGUMENT_S4",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 1,
+        "T_reference": 706,
+        "validations_reference": 706,
+        "T_E": 1283,
+        "validations_E": 1283,
+        "delta": 577
+      }
+    },
+    {
+      "case_id": "logistics_ALTER_AUTHORIZED_ARGUMENT_S5",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "logistics_ALTER_AUTHORIZED_ARGUMENT_S6",
+      "domain": "logistics",
+      "endpoint": {
+        "menu_size": 1283,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 1283,
+        "T_E": null,
+        "validations_E": 1283,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_DELETE_NECESSARY_ACTION_S0",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11209,
+        "valid_endpoints": 2,
+        "T_reference": 22,
+        "validations_reference": 22,
+        "T_E": 11208,
+        "validations_E": 11208,
+        "delta": 11186
+      }
+    },
+    {
+      "case_id": "depots_DELETE_NECESSARY_ACTION_S1",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11209,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11209,
+        "T_E": null,
+        "validations_E": 11209,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_DELETE_NECESSARY_ACTION_S2",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11209,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11209,
+        "T_E": null,
+        "validations_E": 11209,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_DELETE_NECESSARY_ACTION_S3",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11209,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11209,
+        "T_E": null,
+        "validations_E": 11209,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_DELETE_NECESSARY_ACTION_S4",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11209,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11209,
+        "T_E": null,
+        "validations_E": 11209,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_DELETE_NECESSARY_ACTION_S5",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11209,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11209,
+        "T_E": null,
+        "validations_E": 11209,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_DELETE_NECESSARY_ACTION_S6",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11209,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11209,
+        "T_E": null,
+        "validations_E": 11209,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_WRONG_GROUNDED_ACTION_S0",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 1,
+        "T_reference": 6200,
+        "validations_reference": 6200,
+        "T_E": 11982,
+        "validations_E": 11982,
+        "delta": 5782
+      }
+    },
+    {
+      "case_id": "depots_WRONG_GROUNDED_ACTION_S1",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_WRONG_GROUNDED_ACTION_S2",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_WRONG_GROUNDED_ACTION_S3",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_WRONG_GROUNDED_ACTION_S4",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_WRONG_GROUNDED_ACTION_S5",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_WRONG_GROUNDED_ACTION_S6",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_SWAP_DEPENDENT_ADJACENT_S0",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_SWAP_DEPENDENT_ADJACENT_S1",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_SWAP_DEPENDENT_ADJACENT_S2",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_SWAP_DEPENDENT_ADJACENT_S3",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_SWAP_DEPENDENT_ADJACENT_S4",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_SWAP_DEPENDENT_ADJACENT_S5",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_SWAP_DEPENDENT_ADJACENT_S6",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_ALTER_AUTHORIZED_ARGUMENT_S0",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 2,
+        "T_reference": 22,
+        "validations_reference": 22,
+        "T_E": 11981,
+        "validations_E": 11981,
+        "delta": 11959
+      }
+    },
+    {
+      "case_id": "depots_ALTER_AUTHORIZED_ARGUMENT_S1",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_ALTER_AUTHORIZED_ARGUMENT_S2",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_ALTER_AUTHORIZED_ARGUMENT_S3",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_ALTER_AUTHORIZED_ARGUMENT_S4",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_ALTER_AUTHORIZED_ARGUMENT_S5",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    },
+    {
+      "case_id": "depots_ALTER_AUTHORIZED_ARGUMENT_S6",
+      "domain": "depots",
+      "endpoint": {
+        "menu_size": 11982,
+        "valid_endpoints": 0,
+        "T_reference": null,
+        "validations_reference": 11982,
+        "T_E": null,
+        "validations_E": 11982,
+        "delta": null
+      }
+    }
+  ],
+  "dedup": [
+    {
+      "signature": "mechanical",
+      "representative": "recorded",
+      "aggregate": {
+        "combinations": 84,
+        "repairable": 20,
+        "no_valid_endpoint": 64,
+        "candidate_count": 378917,
+        "valid_endpoints": 28,
+        "delta": {
+          "n": 20,
+          "mean": 1854.5,
+          "median": 426.0,
+          "minimum": -6.0,
+          "maximum": 11959.0,
+          "percentiles": {
+            "5": -0.2999999999999996,
+            "25": 202.75,
+            "75": 1146.0,
+            "95": 11224.650000000001
+          },
+          "signs": {
+            "positive": 17,
+            "zero": 2,
+            "negative": 1,
+            "undefined": 64
+          }
+        },
+        "rank_sum_reference": 13284,
+        "rank_sum_E": 50374,
+        "all_menu_validation_sum_reference": 341794,
+        "all_menu_validation_sum_E": 378884
+      }
+    },
+    {
+      "signature": "mechanical",
+      "representative": "base_rank",
+      "aggregate": {
+        "combinations": 84,
+        "repairable": 20,
+        "no_valid_endpoint": 64,
+        "candidate_count": 378917,
+        "valid_endpoints": 28,
+        "delta": {
+          "n": 20,
+          "mean": 1854.5,
+          "median": 426.0,
+          "minimum": -6.0,
+          "maximum": 11959.0,
+          "percentiles": {
+            "5": -0.2999999999999996,
+            "25": 202.75,
+            "75": 1146.0,
+            "95": 11224.650000000001
+          },
+          "signs": {
+            "positive": 17,
+            "zero": 2,
+            "negative": 1,
+            "undefined": 64
+          }
+        },
+        "rank_sum_reference": 13284,
+        "rank_sum_E": 50374,
+        "all_menu_validation_sum_reference": 341794,
+        "all_menu_validation_sum_E": 378884
+      }
+    },
+    {
+      "signature": "full_endpoint",
+      "representative": "recorded",
+      "aggregate": {
+        "combinations": 84,
+        "repairable": 20,
+        "no_valid_endpoint": 64,
+        "candidate_count": 740,
+        "valid_endpoints": 20,
+        "delta": {
+          "n": 20,
+          "mean": 4.3,
+          "median": 2.0,
+          "minimum": -3.0,
+          "maximum": 19.0,
+          "percentiles": {
+            "5": -3.0,
+            "25": 0.0,
+            "75": 5.5,
+            "95": 18.05
+          },
+          "signs": {
+            "positive": 14,
+            "zero": 4,
+            "negative": 2,
+            "undefined": 64
+          }
+        },
+        "rank_sum_reference": 143,
+        "rank_sum_E": 229,
+        "all_menu_validation_sum_reference": 639,
+        "all_menu_validation_sum_E": 725
+      }
+    },
+    {
+      "signature": "full_endpoint",
+      "representative": "base_rank",
+      "aggregate": {
+        "combinations": 84,
+        "repairable": 20,
+        "no_valid_endpoint": 64,
+        "candidate_count": 740,
+        "valid_endpoints": 20,
+        "delta": {
+          "n": 20,
+          "mean": 2.7,
+          "median": 1.0,
+          "minimum": -3.0,
+          "maximum": 15.0,
+          "percentiles": {
+            "5": -3.0,
+            "25": 0.0,
+            "75": 4.5,
+            "95": 12.150000000000002
+          },
+          "signs": {
+            "positive": 12,
+            "zero": 4,
+            "negative": 4,
+            "undefined": 64
+          }
+        },
+        "rank_sum_reference": 175,
+        "rank_sum_E": 229,
+        "all_menu_validation_sum_reference": 671,
+        "all_menu_validation_sum_E": 725
+      }
+    },
+    {
+      "signature": "paired_contract_endpoint",
+      "representative": "recorded",
+      "aggregate": {
+        "combinations": 84,
+        "repairable": 20,
+        "no_valid_endpoint": 64,
+        "candidate_count": 413,
+        "valid_endpoints": 20,
+        "delta": {
+          "n": 20,
+          "mean": 1.35,
+          "median": 2.0,
+          "minimum": -3.0,
+          "maximum": 4.0,
+          "percentiles": {
+            "5": -3.0,
+            "25": 0.0,
+            "75": 3.0,
+            "95": 4.0
+          },
+          "signs": {
+            "positive": 12,
+            "zero": 6,
+            "negative": 2,
+            "undefined": 64
+          }
+        },
+        "rank_sum_reference": 80,
+        "rank_sum_E": 107,
+        "all_menu_validation_sum_reference": 371,
+        "all_menu_validation_sum_E": 398
+      }
+    },
+    {
+      "signature": "paired_contract_endpoint",
+      "representative": "base_rank",
+      "aggregate": {
+        "combinations": 84,
+        "repairable": 20,
+        "no_valid_endpoint": 64,
+        "candidate_count": 413,
+        "valid_endpoints": 20,
+        "delta": {
+          "n": 20,
+          "mean": -0.05,
+          "median": 0.0,
+          "minimum": -3.0,
+          "maximum": 2.0,
+          "percentiles": {
+            "5": -3.0,
+            "25": 0.0,
+            "75": 0.25,
+            "95": 2.0
+          },
+          "signs": {
+            "positive": 5,
+            "zero": 11,
+            "negative": 4,
+            "undefined": 64
+          }
+        },
+        "rank_sum_reference": 108,
+        "rank_sum_E": 107,
+        "all_menu_validation_sum_reference": 399,
+        "all_menu_validation_sum_E": 398
+      }
+    }
+  ],
+  "domain_leave_one_out": [
+    {
+      "dropped_domain": "blocksworld",
+      "original": {
+        "combinations": 56,
+        "repairable": 12,
+        "no_valid_endpoint": 44,
+        "candidate_count": 365071,
+        "valid_endpoints": 18,
+        "delta": {
+          "n": 12,
+          "mean": 2935.0833333333335,
+          "median": 1113.0,
+          "minimum": 0.0,
+          "maximum": 11959.0,
+          "percentiles": {
+            "5": 0.0,
+            "25": 538.75,
+            "75": 2379.25,
+            "95": 11533.849999999999
+          },
+          "signs": {
+            "positive": 10,
+            "zero": 2,
+            "negative": 0,
+            "undefined": 44
+          }
+        },
+        "rank_sum_reference": 11225,
+        "rank_sum_E": 46446,
+        "all_menu_validation_sum_reference": 329844,
+        "all_menu_validation_sum_E": 365065
+      },
+      "primary_dedup": {
+        "combinations": 56,
+        "repairable": 12,
+        "no_valid_endpoint": 44,
+        "candidate_count": 269,
+        "valid_endpoints": 12,
+        "delta": {
+          "n": 12,
+          "mean": 1.9166666666666667,
+          "median": 2.5,
+          "minimum": 0.0,
+          "maximum": 4.0,
+          "percentiles": {
+            "5": 0.0,
+            "25": 0.0,
+            "75": 3.25,
+            "95": 4.0
+          },
+          "signs": {
+            "positive": 7,
+            "zero": 5,
+            "negative": 0,
+            "undefined": 44
+          }
+        },
+        "rank_sum_reference": 40,
+        "rank_sum_E": 63,
+        "all_menu_validation_sum_reference": 246,
+        "all_menu_validation_sum_E": 269
+      },
+      "tie_mean_delta": {
+        "n": 1000,
+        "mean": 2335.5474166666663,
+        "median": 2344.458333333333,
+        "minimum": 928.6666666666666,
+        "maximum": 3382.0,
+        "percentiles": {
+          "5": 1633.1291666666666,
+          "25": 2043.7083333333333,
+          "75": 2659.75,
+          "95": 3010.425
+        },
+        "signs": {
+          "positive": 1000,
+          "zero": 0,
+          "negative": 0,
+          "undefined": 0
+        }
+      }
+    },
+    {
+      "dropped_domain": "depots",
+      "original": {
+        "combinations": 56,
+        "repairable": 17,
+        "no_valid_endpoint": 39,
+        "candidate_count": 48832,
+        "valid_endpoints": 23,
+        "delta": {
+          "n": 17,
+          "mean": 480.1764705882353,
+          "median": 394.0,
+          "minimum": -6.0,
+          "maximum": 1245.0,
+          "percentiles": {
+            "5": -1.1999999999999997,
+            "25": 199.0,
+            "75": 577.0,
+            "95": 1245.0
+          },
+          "signs": {
+            "positive": 14,
+            "zero": 2,
+            "negative": 1,
+            "undefined": 39
+          }
+        },
+        "rank_sum_reference": 7040,
+        "rank_sum_E": 15203,
+        "all_menu_validation_sum_reference": 40638,
+        "all_menu_validation_sum_E": 48801
+      },
+      "primary_dedup": {
+        "combinations": 56,
+        "repairable": 17,
+        "no_valid_endpoint": 39,
+        "candidate_count": 271,
+        "valid_endpoints": 17,
+        "delta": {
+          "n": 17,
+          "mean": 1.0588235294117647,
+          "median": 1.0,
+          "minimum": -3.0,
+          "maximum": 4.0,
+          "percentiles": {
+            "5": -3.0,
+            "25": 0.0,
+            "75": 3.0,
+            "95": 4.0
+          },
+          "signs": {
+            "positive": 9,
+            "zero": 6,
+            "negative": 2,
+            "undefined": 39
+          }
+        },
+        "rank_sum_reference": 73,
+        "rank_sum_E": 91,
+        "all_menu_validation_sum_reference": 238,
+        "all_menu_validation_sum_E": 256
+      },
+      "tie_mean_delta": {
+        "n": 1000,
+        "mean": 489.0535294117647,
+        "median": 488.7941176470588,
+        "minimum": 299.2352941176471,
+        "maximum": 678.7058823529412,
+        "percentiles": {
+          "5": 383.5441176470588,
+          "25": 442.5735294117647,
+          "75": 531.4117647058824,
+          "95": 598.3441176470587
+        },
+        "signs": {
+          "positive": 1000,
+          "zero": 0,
+          "negative": 0,
+          "undefined": 0
+        }
+      }
+    },
+    {
+      "dropped_domain": "logistics",
+      "original": {
+        "combinations": 56,
+        "repairable": 11,
+        "no_valid_endpoint": 45,
+        "candidate_count": 343931,
+        "valid_endpoints": 15,
+        "delta": {
+          "n": 11,
+          "mean": 2799.6363636363635,
+          "median": 231.0,
+          "minimum": -6.0,
+          "maximum": 11959.0,
+          "percentiles": {
+            "5": 91.5,
+            "25": 201.5,
+            "75": 3105.0,
+            "95": 11572.5
+          },
+          "signs": {
+            "positive": 10,
+            "zero": 0,
+            "negative": 1,
+            "undefined": 45
+          }
+        },
+        "rank_sum_reference": 8303,
+        "rank_sum_E": 39099,
+        "all_menu_validation_sum_reference": 313106,
+        "all_menu_validation_sum_E": 343902
+      },
+      "primary_dedup": {
+        "combinations": 56,
+        "repairable": 11,
+        "no_valid_endpoint": 45,
+        "candidate_count": 286,
+        "valid_endpoints": 11,
+        "delta": {
+          "n": 11,
+          "mean": 1.1818181818181819,
+          "median": 2.0,
+          "minimum": -3.0,
+          "maximum": 4.0,
+          "percentiles": {
+            "5": -3.0,
+            "25": 0.5,
+            "75": 2.5,
+            "95": 3.5
+          },
+          "signs": {
+            "positive": 8,
+            "zero": 1,
+            "negative": 2,
+            "undefined": 45
+          }
+        },
+        "rank_sum_reference": 47,
+        "rank_sum_E": 60,
+        "all_menu_validation_sum_reference": 258,
+        "all_menu_validation_sum_E": 271
+      },
+      "tie_mean_delta": {
+        "n": 1000,
+        "mean": 2173.345,
+        "median": 2173.090909090909,
+        "minimum": 588.8181818181819,
+        "maximum": 3295.6363636363635,
+        "percentiles": {
+          "5": 1421.15,
+          "25": 1852.431818181818,
+          "75": 2521.2954545454545,
+          "95": 2898.0
+        },
+        "signs": {
+          "positive": 1000,
+          "zero": 0,
+          "negative": 0,
+          "undefined": 0
+        }
+      }
+    }
+  ]
+}

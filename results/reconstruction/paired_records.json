@@ -1,0 +1,2114 @@
+[
+  {
+    "structure": "PRI_00_0_literal_independent",
+    "template": "literal",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 8,
+        "valid_candidates": 3,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 8,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_00_1_literal_irrelevant",
+    "template": "literal",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 8,
+        "valid_candidates": 3,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 8,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_00_2_literal_overwritten",
+    "template": "literal",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 8,
+        "valid_candidates": 3,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 8,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_00_3_literal_heap_alias",
+    "template": "literal",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 8,
+        "valid_candidates": 3,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 8,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_00_4_literal_unreachable",
+    "template": "literal",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 8,
+        "valid_candidates": 3,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 8,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_00_5_literal_exception",
+    "template": "literal",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 8,
+        "valid_candidates": 3,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 8,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_01_0_value_dependency_independent",
+    "template": "value_dependency",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_01_1_value_dependency_irrelevant",
+    "template": "value_dependency",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_01_2_value_dependency_overwritten",
+    "template": "value_dependency",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_01_3_value_dependency_heap_alias",
+    "template": "value_dependency",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_01_4_value_dependency_unreachable",
+    "template": "value_dependency",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_01_5_value_dependency_exception",
+    "template": "value_dependency",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_02_0_resource_chain_independent",
+    "template": "resource_chain",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_02_1_resource_chain_irrelevant",
+    "template": "resource_chain",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_02_2_resource_chain_overwritten",
+    "template": "resource_chain",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_02_3_resource_chain_heap_alias",
+    "template": "resource_chain",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_02_4_resource_chain_unreachable",
+    "template": "resource_chain",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_02_5_resource_chain_exception",
+    "template": "resource_chain",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_03_0_delete_overwrite_independent",
+    "template": "delete_overwrite",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 9,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 9,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_03_1_delete_overwrite_irrelevant",
+    "template": "delete_overwrite",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 9,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 9,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_03_2_delete_overwrite_overwritten",
+    "template": "delete_overwrite",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 9,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 9,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_03_3_delete_overwrite_heap_alias",
+    "template": "delete_overwrite",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 9,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 9,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_03_4_delete_overwrite_unreachable",
+    "template": "delete_overwrite",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 9,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 9,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_03_5_delete_overwrite_exception",
+    "template": "delete_overwrite",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 9,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 9,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_04_0_branch_guard_independent",
+    "template": "branch_guard",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_04_1_branch_guard_irrelevant",
+    "template": "branch_guard",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_04_2_branch_guard_overwritten",
+    "template": "branch_guard",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_04_3_branch_guard_heap_alias",
+    "template": "branch_guard",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_04_4_branch_guard_unreachable",
+    "template": "branch_guard",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_04_5_branch_guard_exception",
+    "template": "branch_guard",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_05_0_early_return_independent",
+    "template": "early_return",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 12,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 10,
+        "delta": 7
+      }
+    },
+    "D": 8
+  },
+  {
+    "structure": "PRI_05_1_early_return_irrelevant",
+    "template": "early_return",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 12,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 10,
+        "delta": 7
+      }
+    },
+    "D": 8
+  },
+  {
+    "structure": "PRI_05_2_early_return_overwritten",
+    "template": "early_return",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 12,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 10,
+        "delta": 7
+      }
+    },
+    "D": 8
+  },
+  {
+    "structure": "PRI_05_3_early_return_heap_alias",
+    "template": "early_return",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 12,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 10,
+        "delta": 7
+      }
+    },
+    "D": 8
+  },
+  {
+    "structure": "PRI_05_4_early_return_unreachable",
+    "template": "early_return",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 12,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 10,
+        "delta": 7
+      }
+    },
+    "D": 8
+  },
+  {
+    "structure": "PRI_05_5_early_return_exception",
+    "template": "early_return",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 12,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 10,
+        "delta": 7
+      }
+    },
+    "D": 8
+  },
+  {
+    "structure": "PRI_06_0_control_bypass_independent",
+    "template": "control_bypass",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_06_1_control_bypass_irrelevant",
+    "template": "control_bypass",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_06_2_control_bypass_overwritten",
+    "template": "control_bypass",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_06_3_control_bypass_heap_alias",
+    "template": "control_bypass",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_06_4_control_bypass_unreachable",
+    "template": "control_bypass",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_06_5_control_bypass_exception",
+    "template": "control_bypass",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 4,
+        "delta": 1
+      }
+    },
+    "D": 2
+  },
+  {
+    "structure": "PRI_07_0_may_raise_independent",
+    "template": "may_raise",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 7,
+        "valid_candidates": 3,
+        "T_reference": 2,
+        "T_E": 1,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 7,
+        "valid_candidates": 1,
+        "T_reference": 2,
+        "T_E": 2,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_07_1_may_raise_irrelevant",
+    "template": "may_raise",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 7,
+        "valid_candidates": 3,
+        "T_reference": 2,
+        "T_E": 1,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 7,
+        "valid_candidates": 1,
+        "T_reference": 2,
+        "T_E": 2,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_07_2_may_raise_overwritten",
+    "template": "may_raise",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 7,
+        "valid_candidates": 3,
+        "T_reference": 2,
+        "T_E": 1,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 7,
+        "valid_candidates": 1,
+        "T_reference": 2,
+        "T_E": 2,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_07_3_may_raise_heap_alias",
+    "template": "may_raise",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 7,
+        "valid_candidates": 3,
+        "T_reference": 2,
+        "T_E": 1,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 7,
+        "valid_candidates": 1,
+        "T_reference": 2,
+        "T_E": 2,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_07_4_may_raise_unreachable",
+    "template": "may_raise",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 7,
+        "valid_candidates": 3,
+        "T_reference": 2,
+        "T_E": 1,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 7,
+        "valid_candidates": 1,
+        "T_reference": 2,
+        "T_E": 2,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_07_5_may_raise_exception",
+    "template": "may_raise",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 7,
+        "valid_candidates": 3,
+        "T_reference": 2,
+        "T_E": 1,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 7,
+        "valid_candidates": 1,
+        "T_reference": 2,
+        "T_E": 2,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_08_0_high_write_only_independent",
+    "template": "high_write_only",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 3,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_08_1_high_write_only_irrelevant",
+    "template": "high_write_only",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 3,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_08_2_high_write_only_overwritten",
+    "template": "high_write_only",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 3,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_08_3_high_write_only_heap_alias",
+    "template": "high_write_only",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 3,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_08_4_high_write_only_unreachable",
+    "template": "high_write_only",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 3,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_08_5_high_write_only_exception",
+    "template": "high_write_only",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 3,
+        "T_E": 3,
+        "delta": 0
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_09_0_two_edits_independent",
+    "template": "two_edits",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 3,
+        "T_reference": 15,
+        "T_E": 10,
+        "delta": -5
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 1,
+        "T_reference": 15,
+        "T_E": 19,
+        "delta": 4
+      }
+    },
+    "D": 9
+  },
+  {
+    "structure": "PRI_09_1_two_edits_irrelevant",
+    "template": "two_edits",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 3,
+        "T_reference": 15,
+        "T_E": 10,
+        "delta": -5
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 1,
+        "T_reference": 15,
+        "T_E": 19,
+        "delta": 4
+      }
+    },
+    "D": 9
+  },
+  {
+    "structure": "PRI_09_2_two_edits_overwritten",
+    "template": "two_edits",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 3,
+        "T_reference": 15,
+        "T_E": 10,
+        "delta": -5
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 1,
+        "T_reference": 15,
+        "T_E": 19,
+        "delta": 4
+      }
+    },
+    "D": 9
+  },
+  {
+    "structure": "PRI_09_3_two_edits_heap_alias",
+    "template": "two_edits",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 3,
+        "T_reference": 15,
+        "T_E": 8,
+        "delta": -7
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 1,
+        "T_reference": 15,
+        "T_E": 16,
+        "delta": 1
+      }
+    },
+    "D": 8
+  },
+  {
+    "structure": "PRI_09_4_two_edits_unreachable",
+    "template": "two_edits",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 3,
+        "T_reference": 15,
+        "T_E": 8,
+        "delta": -7
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 1,
+        "T_reference": 15,
+        "T_E": 16,
+        "delta": 1
+      }
+    },
+    "D": 8
+  },
+  {
+    "structure": "PRI_09_5_two_edits_exception",
+    "template": "two_edits",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 38,
+        "valid_candidates": 3,
+        "T_reference": 15,
+        "T_E": 10,
+        "delta": -5
+      },
+      "STATE_INVALID": {
+        "menu_size": 38,
+        "valid_candidates": 1,
+        "T_reference": 15,
+        "T_E": 19,
+        "delta": 4
+      }
+    },
+    "D": 9
+  },
+  {
+    "structure": "PRI_10_0_unknown_independent",
+    "template": "unknown",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 2,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_10_1_unknown_irrelevant",
+    "template": "unknown",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 2,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_10_2_unknown_overwritten",
+    "template": "unknown",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 2,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_10_3_unknown_heap_alias",
+    "template": "unknown",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 2,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_10_4_unknown_unreachable",
+    "template": "unknown",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 2,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_10_5_unknown_exception",
+    "template": "unknown",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 6,
+        "valid_candidates": 2,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 6,
+        "valid_candidates": 1,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_11_0_insertion_independent",
+    "template": "insertion",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 4,
+        "T_E": 5,
+        "delta": 1
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_11_1_insertion_irrelevant",
+    "template": "insertion",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 4,
+        "T_E": 5,
+        "delta": 1
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_11_2_insertion_overwritten",
+    "template": "insertion",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 4,
+        "T_E": 5,
+        "delta": 1
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_11_3_insertion_heap_alias",
+    "template": "insertion",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 4,
+        "T_E": 5,
+        "delta": 1
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_11_4_insertion_unreachable",
+    "template": "insertion",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 4,
+        "T_E": 5,
+        "delta": 1
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_11_5_insertion_exception",
+    "template": "insertion",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 10,
+        "valid_candidates": 4,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 10,
+        "valid_candidates": 1,
+        "T_reference": 4,
+        "T_E": 5,
+        "delta": 1
+      }
+    },
+    "D": 1
+  },
+  {
+    "structure": "PRI_12_0_multiple_observers_independent",
+    "template": "multiple_observers",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 60,
+        "valid_candidates": 15,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 60,
+        "valid_candidates": 5,
+        "T_reference": 3,
+        "T_E": 12,
+        "delta": 9
+      }
+    },
+    "D": 10
+  },
+  {
+    "structure": "PRI_12_1_multiple_observers_irrelevant",
+    "template": "multiple_observers",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 60,
+        "valid_candidates": 15,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 60,
+        "valid_candidates": 5,
+        "T_reference": 3,
+        "T_E": 12,
+        "delta": 9
+      }
+    },
+    "D": 10
+  },
+  {
+    "structure": "PRI_12_2_multiple_observers_overwritten",
+    "template": "multiple_observers",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 60,
+        "valid_candidates": 18,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 60,
+        "valid_candidates": 6,
+        "T_reference": 3,
+        "T_E": 14,
+        "delta": 11
+      }
+    },
+    "D": 12
+  },
+  {
+    "structure": "PRI_12_3_multiple_observers_heap_alias",
+    "template": "multiple_observers",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 60,
+        "valid_candidates": 15,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 60,
+        "valid_candidates": 5,
+        "T_reference": 3,
+        "T_E": 12,
+        "delta": 9
+      }
+    },
+    "D": 10
+  },
+  {
+    "structure": "PRI_12_4_multiple_observers_unreachable",
+    "template": "multiple_observers",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 60,
+        "valid_candidates": 15,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 60,
+        "valid_candidates": 5,
+        "T_reference": 3,
+        "T_E": 12,
+        "delta": 9
+      }
+    },
+    "D": 10
+  },
+  {
+    "structure": "PRI_12_5_multiple_observers_exception",
+    "template": "multiple_observers",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 60,
+        "valid_candidates": 15,
+        "T_reference": 3,
+        "T_E": 2,
+        "delta": -1
+      },
+      "STATE_INVALID": {
+        "menu_size": 60,
+        "valid_candidates": 5,
+        "T_reference": 3,
+        "T_E": 14,
+        "delta": 11
+      }
+    },
+    "D": 12
+  },
+  {
+    "structure": "PRI_13_0_alias_independent",
+    "template": "alias",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_13_1_alias_irrelevant",
+    "template": "alias",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_13_2_alias_overwritten",
+    "template": "alias",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_13_3_alias_heap_alias",
+    "template": "alias",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 6,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_13_4_alias_unreachable",
+    "template": "alias",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 6,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_13_5_alias_exception",
+    "template": "alias",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 6,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_14_0_unreachable_correction_independent",
+    "template": "unreachable_correction",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 18,
+        "valid_candidates": 9,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 18,
+        "valid_candidates": 5,
+        "T_reference": 5,
+        "T_E": 5,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_14_1_unreachable_correction_irrelevant",
+    "template": "unreachable_correction",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 18,
+        "valid_candidates": 9,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 18,
+        "valid_candidates": 5,
+        "T_reference": 5,
+        "T_E": 5,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_14_2_unreachable_correction_overwritten",
+    "template": "unreachable_correction",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 18,
+        "valid_candidates": 9,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 18,
+        "valid_candidates": 5,
+        "T_reference": 5,
+        "T_E": 5,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_14_3_unreachable_correction_heap_alias",
+    "template": "unreachable_correction",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 18,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 18,
+        "valid_candidates": 4,
+        "T_reference": 5,
+        "T_E": 5,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_14_4_unreachable_correction_unreachable",
+    "template": "unreachable_correction",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 18,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 18,
+        "valid_candidates": 4,
+        "T_reference": 5,
+        "T_E": 5,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_14_5_unreachable_correction_exception",
+    "template": "unreachable_correction",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 18,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 18,
+        "valid_candidates": 4,
+        "T_reference": 5,
+        "T_E": 5,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_15_0_resource_correction_independent",
+    "template": "resource_correction",
+    "context": "independent",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_15_1_resource_correction_irrelevant",
+    "template": "resource_correction",
+    "context": "irrelevant",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_15_2_resource_correction_overwritten",
+    "template": "resource_correction",
+    "context": "overwritten",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 7,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_15_3_resource_correction_heap_alias",
+    "template": "resource_correction",
+    "context": "heap_alias",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 6,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_15_4_resource_correction_unreachable",
+    "template": "resource_correction",
+    "context": "unreachable",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 6,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  },
+  {
+    "structure": "PRI_15_5_resource_correction_exception",
+    "template": "resource_correction",
+    "context": "exception",
+    "states": {
+      "STATE_VALID": {
+        "menu_size": 32,
+        "valid_candidates": 6,
+        "T_reference": 1,
+        "T_E": 1,
+        "delta": 0
+      },
+      "STATE_INVALID": {
+        "menu_size": 32,
+        "valid_candidates": 1,
+        "T_reference": 7,
+        "T_E": 7,
+        "delta": 0
+      }
+    },
+    "D": 0
+  }
+]

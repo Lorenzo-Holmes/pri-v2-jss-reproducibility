@@ -1,0 +1,129 @@
+{
+  "prediction_source": "supplied recomputation output",
+  "endpoint_inclusion": {
+    "satisfied": 3648,
+    "candidate_states": 3648
+  },
+  "extra_labels": {
+    "Union": 6134,
+    "Complex": 3312
+  },
+  "rank_totals": [
+    {
+      "representation": "original",
+      "condition": "STATE_VALID",
+      "structures": 96,
+      "Reference": 294,
+      "Union": 194,
+      "Complex": 157,
+      "Exact": 200,
+      "Complex_minus_Union": -37
+    },
+    {
+      "representation": "original",
+      "condition": "STATE_INVALID",
+      "structures": 96,
+      "Reference": 408,
+      "Union": 480,
+      "Complex": 501,
+      "Exact": 568,
+      "Complex_minus_Union": 21
+    },
+    {
+      "representation": "recorded",
+      "condition": "STATE_VALID",
+      "structures": 96,
+      "Reference": 255,
+      "Union": 179,
+      "Complex": 142,
+      "Exact": 155,
+      "Complex_minus_Union": -37
+    },
+    {
+      "representation": "recorded",
+      "condition": "STATE_INVALID",
+      "structures": 96,
+      "Reference": 307,
+      "Union": 352,
+      "Complex": 330,
+      "Exact": 354,
+      "Complex_minus_Union": -22
+    },
+    {
+      "representation": "earliest",
+      "condition": "STATE_VALID",
+      "structures": 96,
+      "Reference": 240,
+      "Union": 171,
+      "Complex": 141,
+      "Exact": 163,
+      "Complex_minus_Union": -30
+    },
+    {
+      "representation": "earliest",
+      "condition": "STATE_INVALID",
+      "structures": 96,
+      "Reference": 285,
+      "Union": 329,
+      "Complex": 332,
+      "Exact": 346,
+      "Complex_minus_Union": 3
+    }
+  ],
+  "paired_outcome_prediction_heterogeneity": {
+    "classes": 858,
+    "Union": 0,
+    "Complex": 13
+  },
+  "literal_independent_P_valid": {
+    "candidate_count": 8,
+    "sequences": {
+      "Reference": [
+        "C0001",
+        "C0002",
+        "C0003",
+        "C0005",
+        "C0004",
+        "C0006",
+        "C0007",
+        "C0008"
+      ],
+      "Union": [
+        "C0005",
+        "C0001",
+        "C0002",
+        "C0003",
+        "C0004",
+        "C0006",
+        "C0007",
+        "C0008"
+      ],
+      "Complex": [
+        "C0005",
+        "C0001",
+        "C0002",
+        "C0003",
+        "C0004",
+        "C0006",
+        "C0007",
+        "C0008"
+      ],
+      "Exact": [
+        "C0001",
+        "C0003",
+        "C0005",
+        "C0002",
+        "C0004",
+        "C0006",
+        "C0007",
+        "C0008"
+      ]
+    },
+    "first_valid": {
+      "Reference": 3,
+      "Union": 1,
+      "Complex": 1,
+      "Exact": 2
+    }
+  }
+}

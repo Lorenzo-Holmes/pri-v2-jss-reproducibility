@@ -1,0 +1,38 @@
+{
+  "positive_historical_structures": 72,
+  "pooled_negative": 58,
+  "pooled_draws": 43944,
+  "negative_structure_count": 4,
+  "equal_structure_negative_rate_fraction": "29/36000",
+  "equal_structure_nonpositive_rate_fraction": "1649/14400",
+  "negative_structures": [
+    {
+      "structure": "PRI_09_3_two_edits_heap_alias",
+      "method": "MONTE_CARLO",
+      "draws": 1000,
+      "negative": 25,
+      "nonpositive": 53
+    },
+    {
+      "structure": "PRI_09_4_two_edits_unreachable",
+      "method": "MONTE_CARLO",
+      "draws": 1000,
+      "negative": 29,
+      "nonpositive": 58
+    },
+    {
+      "structure": "PRI_12_0_multiple_observers_independent",
+      "method": "MONTE_CARLO",
+      "draws": 1000,
+      "negative": 3,
+      "nonpositive": 4
+    },
+    {
+      "structure": "PRI_12_3_multiple_observers_heap_alias",
+      "method": "MONTE_CARLO",
+      "draws": 1000,
+      "negative": 1,
+      "nonpositive": 5
+    }
+  ]
+}

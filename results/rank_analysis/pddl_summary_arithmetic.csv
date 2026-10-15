@@ -1,0 +1,8 @@
+representation,catalogue_denominator,repairable,nonrepairable,candidate_count,mean_delta_conditional_on_repairable,harm,tie,benefit,calculation_scope
+original,84,20,64,378917,1854.5,17,2,1,recomputed retained per-case summary arithmetic; original task/candidate truth not supplied
+mechanical/recorded,84,20,64,378917,1854.5,17,2,1,aggregate-only retained summary; mean checked against saved rank sums; class membership and per-case dedup records absent
+mechanical/base_rank,84,20,64,378917,1854.5,17,2,1,aggregate-only retained summary; mean checked against saved rank sums; class membership and per-case dedup records absent
+full_endpoint/recorded,84,20,64,740,4.3,14,4,2,aggregate-only retained summary; mean checked against saved rank sums; class membership and per-case dedup records absent
+full_endpoint/base_rank,84,20,64,740,2.7,12,4,4,aggregate-only retained summary; mean checked against saved rank sums; class membership and per-case dedup records absent
+paired_contract_endpoint/recorded,84,20,64,413,1.35,12,6,2,aggregate-only retained summary; mean checked against saved rank sums; class membership and per-case dedup records absent
+paired_contract_endpoint/base_rank,84,20,64,413,-0.05,5,11,4,aggregate-only retained summary; mean checked against saved rank sums; class membership and per-case dedup records absent
