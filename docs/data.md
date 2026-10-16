@@ -153,14 +153,16 @@ First-valid positions are 3, 1, 1, and 2 for Reference, Union, Complex, and Exac
 
 | Paper location | File under `results/`, unless noted |
 | --- | --- |
-| Main Tables 1–2; Supplement S13 | `table_four_orders.csv`; `rank_analysis/first_valid_transitions.csv` |
+| Main Table 1; Supplement S13 | `table_four_orders.csv` |
+| Main Table 2; Supplement S13 | `rank_analysis/first_valid_transitions.csv` |
+| Main Table 3; Supplement S13, representation sensitivity | `representation_analysis/four_order_representation_totals.csv` |
+| Main Table 4; Supplement S14 | `rank_analysis/representation_summary.csv` |
 | Supplement S5 | `data/summaries/pddl_all_84.csv` (input) |
 | Supplement S9 | `candidate_analysis/construction_96.csv` |
 | Supplement S10–S11 | `candidate_analysis/tie_sign_counts.csv`; `candidate_analysis/worked_examples.json` |
 | Supplement S13, ranks and budgets | `rank_analysis/first_valid_ranks.csv`; `rank_analysis/four_order_all_budgets.csv` |
-| Supplement S14 | `rank_analysis/representation_summary.csv` |
 | Supplement S11, literal example | `representation_analysis/literal_example.csv` |
-| Supplement S13, representation sensitivity | `representation_analysis/four_order_representation_totals.csv`; `representation_analysis/paired_outcome_prediction_counts.csv` |
+| Supplement S13, prediction-set differences within paired-outcome classes | `representation_analysis/paired_outcome_prediction_counts.csv` |
 
 ## Stored labels and implementation names
 

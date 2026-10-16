@@ -101,9 +101,17 @@ draws and other study inputs are read from `data/` in either case.
 
 ## Paper tables and figures
 
-`results/table_four_orders.csv` gives the first-valid totals in main Tables 1–2.
-The [paper table map](docs/data.md#paper-table-map) links the remaining tables
-and supplementary analyses to their input and result files.
+The following files provide the displayed values in main Tables 1–4.
+
+| Main table | Result file | Contents |
+| --- | --- | --- |
+| Main Table 1 | `results/table_four_orders.csv` | First-valid totals, means, medians, ranges, and harm/tie/benefit relative to Reference |
+| Main Table 2 | `results/rank_analysis/first_valid_transitions.csv` | Union-to-Complex and Complex-to-Exact rank changes and harm/tie/benefit by state |
+| Main Table 3 | `results/representation_analysis/four_order_representation_totals.csv` | Four-order totals for original menus and both paired-outcome representative choices |
+| Main Table 4 | `results/rank_analysis/representation_summary.csv` | Absolute and menu-normalized means for the original and paired-outcome/Recorded rows |
+
+The [paper table map](docs/data.md#paper-table-map) also links supplementary
+analyses to their input and result files.
 
 | Figure | Source of the plotted values |
 | --- | --- |
