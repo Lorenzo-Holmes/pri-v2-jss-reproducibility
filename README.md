@@ -161,14 +161,11 @@ identifiers to the supplied labels are unavailable. These commands therefore
 do not reconstruct historical corpus generation, selection, or end-to-end
 timings. Supplement S7 and S10–S13 describe the input records and technical details.
 
-## Implementation and assistance
+## Implementation
 
 The stable-site grammar originated in an AppWorld development adapter. The
 current parser and patcher operate on the local controlled API without an
 AppWorld runtime. Original corpus identifiers remain in the program definitions.
-
-ChatGPT/Codex (OpenAI) assisted development and debugging of analysis, execution,
-and plotting scripts, as described in the manuscript's Methods and AI statement.
 
 ## Access and use
 
