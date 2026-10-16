@@ -88,7 +88,13 @@ The endpoint identity is |N|-|C| = |V|-|initial_V|.
 
 `data/summaries/pddl_retained_summary.json` contains 84 per-case endpoint
 summaries, dedup aggregates, and domain leave-one-out results. `pddl_all_84.csv`
-and `pddl_dedup.csv` are human-readable views used alongside the supplement.
+and `pddl_dedup.csv` are human-readable views used alongside the supplement. These
+summaries were calculated and assembled by project code. The 84 cases cross
+three third-party domain definitions with four fault classes and seven
+project-generated initial states; they are not 84 downloaded tasks.
+[Sources and dependencies](third_party.md#pddl-domain-sources) identifies the
+domain definitions and their pinned upstream source. Domain files and original
+problem instances are not distributed in this package.
 
 ## Output columns and denominators
 

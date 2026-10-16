@@ -1,7 +1,40 @@
+# Python and local environments
 __pycache__/
 *.py[cod]
-reproduced_results/
-execution_results/
-prediction_results/
-representation_results/
-research_figures/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials.json
+client_secret*.json
+cookies.txt
+cookies.json
+local_config.*
+
+# Local editor, cache and temporary output
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*~
+/.cache/
+/outputs/
+/reproduced_results/
+/execution_results/
+/prediction_results/
+/representation_results/
+/research_figures/

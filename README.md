@@ -23,6 +23,8 @@ python -m pip install -r requirements-plot.txt
 
 Run commands from this package root, choosing a new output directory for each
 command. All study commands run locally without model or external-service calls.
+Execution replay evaluates the supplied Python programs; it is not a sandbox for
+untrusted programs.
 
 ## Commands and outputs
 
@@ -163,17 +165,47 @@ timings. Supplement S7 and S10–S13 describe the input records and technical de
 
 ## Implementation
 
-The stable-site grammar originated in an AppWorld development adapter. The
-current parser and patcher operate on the local controlled API without an
-AppWorld runtime. Original corpus identifiers remain in the program definitions.
+The parser, patcher, and edit types are author-written implementations. The
+stable-site grammar was developed for an AppWorld adapter; the present code
+operates on the local controlled API without an AppWorld runtime. Original
+corpus identifiers remain in the program definitions.
 
-## Access and use
+## Data sources
 
-The research files are stored in the private repository
-[Lorenzo-Holmes/pri-v2-jss-reproducibility](https://github.com/Lorenzo-Holmes/pri-v2-jss-reproducibility).
-For journal peer review, the same files are provided in
-`Supplementary_Code_and_Data.zip` with the manuscript; reviewers do not need
-a GitHub account to use that attachment. The repository link is not a public
-download route. Peer-review permissions and reuse restrictions are stated in
-`RIGHTS.txt`; no public-reuse licence has been selected.
+The controlled corpus and its analysis records were produced for this study.
+The retained PDDL tables were calculated and assembled by project code from
+84 project-generated instances: three domains, four fault classes, and seven
+initial states. These are not 84 downloaded benchmark tasks. The domain
+definitions came from LLMs-Planning; they are not author-original inputs and
+are not included here. See [sources and dependencies](docs/third_party.md) for
+the fixed upstream version, file locations, and licence notice.
 
+## Access and licensing
+
+The [research repository](https://github.com/Lorenzo-Holmes/pri-v2-jss-reproducibility) is publicly accessible.
+The [v1.0.0 release](https://github.com/Lorenzo-Holmes/pri-v2-jss-reproducibility/releases/tag/v1.0.0)
+provides the research code and data for this version.
+
+The author-owned original research software is licensed under the [MIT
+License](LICENSE), with copyright (c) 2026 Baoliang Qi. Research data that the
+authors are entitled to license are covered by [CC BY 4.0](LICENSE-DATA.md).
+[RIGHTS.txt](RIGHTS.txt) separates software, numerical data and third-party
+materials, including executable program text stored inside data records.
+Third-party materials retain their own notices and restrictions; neither
+licence automatically covers them.
+
+For scholarly use, cite Baoliang Qi and Shunyao Liu, *Evaluating Baseline-Relative Effect as a Repair Ranking Signal: A Controlled Paired Study*, the
+[repository](https://github.com/Lorenzo-Holmes/pri-v2-jss-reproducibility), and the version or commit used. Data reuse should retain
+the supplied attribution and notices, link to CC BY 4.0, and identify changes.
+The version associated with this package is `v1.0.0`.
+
+## Correspondence to the submitted manuscript
+
+
+The research code, inputs and saved results match the research attachment
+provided with the current Journal of Systems and Software submission. This
+release changes licensing and access documentation only; it does not
+change the algorithms, interfaces, samples or reported results. The table map
+above identifies the corresponding manuscript tables. Historical generation
+materials not supplied with the attachment remain outside the reproducibility
+scope described above.

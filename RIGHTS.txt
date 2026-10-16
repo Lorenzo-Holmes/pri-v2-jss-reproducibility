@@ -1,5 +1,32 @@
-These materials are provided for peer review.
-No public-reuse licence has been selected. Supplying these materials for review
-does not grant a general redistribution licence. Applicable third-party notices
-and restrictions remain in force. Excluded third-party benchmark bodies and
-vendor code are not part of this package.
+LICENSING SCOPE
+
+AUTHOR-OWNED SOFTWARE
+Copyright (c) 2026 Baoliang Qi
+
+The author-owned original Python code in analysis/, research/ and
+figure_sources/ is licensed under the MIT License in LICENSE. This scope
+includes original software configuration in research/api_model.json and
+author-owned executable program text embedded in study records, to the extent
+Baoliang Qi is entitled to license those contents. Original associated software
+documentation is covered only within the same authorised scope. It does not
+include third-party code or numerical research data merely because they share
+a directory or file format.
+
+AUTHOR-OWNED RESEARCH DATA
+Author-owned numerical records, analysis inputs and metadata in data/, and
+numerical tables in results/, are licensed under CC BY 4.0 as described in
+LICENSE-DATA.md, only to the extent the authors are entitled to license them.
+Embedded software remains in the software category. No rights in underlying
+third-party inputs are relicensed by the research-data licence.
+
+THIRD-PARTY MATERIAL
+licenses/LLMs-Planning-MIT.txt preserves the original upstream MIT licence and
+copyright notice. It identifies the historical domain source described in
+docs/third_party.md; it is not the copyright notice for this project's code or
+numerical results. The earlier file-by-file rights chain of the domain bodies
+has not been fully verified. Those bodies and original benchmark tasks are not
+included. Dependencies retain their own licences and are obtained separately;
+no dependency source, binaries or model weights are bundled here.
+
+Each licence applies only to its identified material. Neither MIT nor CC BY
+4.0 is a blanket licence for every third-party resource associated with the study.
